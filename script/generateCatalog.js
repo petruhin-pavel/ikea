@@ -1,7 +1,5 @@
-'use strict';
-
 const generateCatalog = () => {
-  const catalog = `
+    const catalog = `
     <div class="catalog">
         <button type="button" class="btn btn-close catalog-btn" id="hnf-menu-close-btn" aria-expanded="true"
             title="Закрыть меню" aria-label="Закрыть меню">
@@ -24,6 +22,6 @@ const generateCatalog = () => {
 
     </div>
   `;
-  document.body.insertAdjacentHTML('afterend', catalog);
+    document.body.insertAdjacentHTML('afterend', catalog);
 };
-generateCatalog();
+export default generateCatalog;
